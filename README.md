@@ -29,16 +29,14 @@ This repository hosts the backend service for the **Generic DataGrid Component**
    cd <repo-name>
 
 2. Install dependencies:
-  ```bash
+   ```bash
    npm install
 
-   
-
 3. Configure the environment variables:
-    Create a .env file in the root directory and add the following:
-    PORT=7000
-    DB_URL =mongodb+srv://<username>:<password>@cluster0.8alfj.mongodb.net/DataGridDb
+   Create a .env file in the root directory and add the following:
+   PORT=7000
+   DB_URL =mongodb+srv://<username>:<password>@cluster0.8alfj.mongodb.net/DataGridDb
 
 4. Start the server:
-  ```bash
+   ```bash
     npm run dev
